@@ -74,7 +74,7 @@ end
 function buy()
     local teleportservice = game:GetService("TeleportService")
     local player = game.Players.LocalPlayer
-    local placeid = 0
+    local placeid = 11446954517
     teleportservice:TeleportToPlaceInstance(placeid, player.Name)
 end
 
