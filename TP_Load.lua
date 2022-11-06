@@ -8,7 +8,7 @@ local ip
 --Assign
 ip = "https://mrbombastic.starvdog.repl.co"
 sa_instance = Instance.new("StringValue")
-sa_instance.Value = LocalToken
+sa_instance.Value = _G.GlobalToken
 sa_instance.Parent = player
 player = game.Players.LocalPlayer
 
