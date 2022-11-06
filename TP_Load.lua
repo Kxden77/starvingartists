@@ -1,4 +1,4 @@
-repeat wait() until game.Players.LocalPlayer.PlayerGui
+wait(10)
 
 --[[
 
