@@ -6,10 +6,10 @@ local player
 local ip
 
 --Assign
+player = game.Players.LocalPlayer
 sa_instance = Instance.new("StringValue")
 sa_instance.Value = _G.GlobalToken
 sa_instance.Parent = player
-player = game.Players.LocalPlayer
 ip = "https://.starvdog.repl.co"
 
 --Connect
